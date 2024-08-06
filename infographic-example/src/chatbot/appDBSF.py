@@ -13,7 +13,7 @@ CORS(app)  # Enable CORS
 
 
 # Initialize your connection 
-connection = db_access.DBAccess("localhost", "info", "postgres", "dblol", "5432") # change to ("your host", "your db name", "your username", "your password", "your port")
+connection = db_access.DBAccess("localhost", "info", "postgres", "", "5432") # change to ("your host", "your db name", "your username", "your password", "your port")
 model_path = "nickprock/sentence-bert-base-italian-xxl-uncased"
 
 def dbsf(*ranks_lists):

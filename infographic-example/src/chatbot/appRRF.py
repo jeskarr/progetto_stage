@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS
 
 # Initialize your connection and knowledge graph
-connection = db_access.DBAccess("localhost", "info", "postgres", "dblol", "5432") # change to ("your host", "your db name", "your username", "your password", "your port")
+connection = db_access.DBAccess("localhost", "info", "postgres", "", "5432") # change to ("your host", "your db name", "your username", "your password", "your port")
 model_path = "nickprock/sentence-bert-base-italian-xxl-uncased"
 
 def rrf(*ranks_lists, k=60):
