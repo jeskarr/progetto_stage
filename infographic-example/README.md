@@ -5,7 +5,7 @@ The topic of this infographic is the Bachelor Degree in Computer Science at the 
 It uses a local server (node.js *http-server*) to be viewed.
 
 **Important:** This version of the infographic includes a basic term-based chatbot. For a more advanced feature (hybrid search) see the
-`VERSIONE_INTEGRATA` branches.
+`VERSIONE_INTEGRATA` branch.
 
 ## Software requirements
 To run this project, you need to have **Node.js** installed along with **npm** for package management.
