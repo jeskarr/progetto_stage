@@ -241,7 +241,7 @@ chatForm.addEventListener("submit", (e) => {
 })
 
 function sendMessage() {
-    const msg = msgText.value.trim();
+    let msg = msgText.value.trim();
     const chatContent = document.querySelector("#chatWindow .chat-content");
 
     d3.select("#chatWindow .chat-content")
@@ -252,20 +252,28 @@ function sendMessage() {
     msgText.value = '';
     chatContent.scrollTop = chatContent.scrollHeight;
 
-    // Show loading msg
     const botMsg = d3.select("#chatWindow .chat-content")
         .append("div")
         .attr("class", "chat-message bot")
         .html("<span class='dot'></span><span class='dot'></span><span class='dot'></span>");
     chatContent.scrollTop = chatContent.scrollHeight;
 
-    // Show true msg
-    setTimeout(() => {
-        const ans = answer(msg);
-        botMsg
-            .html(ans); 
+    fetch('http://localhost:5000/api/query', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ prompt: msg }),
+    })
+    .then(response => response.json())
+    .then(data => {
+        botMsg.html(data.response);
         chatContent.scrollTop = chatContent.scrollHeight;
-    }, 1000)
+    })
+    .catch(error => {
+        botMsg.textContent = "Si è verificato un errore &#128542;.";
+        console.error('Error:', error);
+    });
 }
 
 
