@@ -1,0 +1,31 @@
+@media only screen and (max-width: 600px) {
+    #content > div:nth-child(odd), #content > div:nth-child(even) {
+        background-attachment: scroll;
+        background-repeat: repeat-y;
+    }
+
+    .section-content {
+        flex-direction: column;
+    }
+
+    .dataviz-summary {
+        width: 100%;
+    }
+
+    .section-content-gridlike {
+        grid-template-columns: 1fr;
+    }
+
+    .section-appendix, .panel:not(.informative) {
+        background-image: none;
+    }
+
+    .map-wrapper {
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .dataviz-wrapper {
+        width: 80vw;
+    }
+} 

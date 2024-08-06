@@ -1,0 +1,39 @@
+﻿Insegnamento;anno;periodo;"CFU
+totali";"ore
+totali";"ore
+aula";"CFU
+aula";"ore
+eserc.";"CFU
+eserc.";"ore
+lab.";"CFU
+lab.";SSD
+Architettura degli elaboratori;I;1 semestre;8;66;40;5;16;2;10;1;INF
+Analisi matematica;I;1 semestre;12;96;64;8;32;4;;;MAT
+Logica;I;1 semestre;6;50;32;4;18;2;;;MAT
+Programmazione;I;2 semestre;9;72;48;6;;;24;3;INF
+Algebra e matematica discreta;I;2 semestre;12;98;58;7;40;5;;;MAT
+Lingua Inglese B2 (Abilità Ricettive);I;2 semestre;3;;;;;;;;ALTRO
+Sistemi operativi;I;2 semestre;9;72;40;5;24;3;8;1;INF
+Programmazione ad oggetti;II;1 semestre;10;80;48;6;20;3;12;1;INF
+Reti di calcolatori;II;1 semestre;9;72;72;9;;;;;INF
+Probabilità e statistica;II;1 semestre;6;48;32;4;16;2;;;MAT
+Basi di dati;II;1 semestre;9;72;48;6;8;1;16;2;INF
+Automi e linguaggi formali;II;2 semestre;6;48;32;4;16;2;;;INF
+Algoritmi e strutture dati;II;2 semestre;9;72;56;7;16;2;;;INF
+Calcolo numerico;II;2 semestre;6;56;40;5;;;16;1;MAT
+Due esami caratterizzanti a scelta;II;;12;;;;;;;;INF
+Ricerca Operativa;III;1 semestre;6;52;32;4;8;1;12;1;MAT
+Ingegneria software;III;1 semestre;12;96;56;7;8;1;32;4;INF
+Tecnologie web;III;1 semestre;9;72;40;5;12;1,5;20;2,5;INF
+Crediti liberi;III;;12;;;;;;;;ALTRO
+Stage;III;2 semestre;12;;;;;;;;ALTRO
+Prova finale;III;2 semestre;3;;;;;;;;ALTRO
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;

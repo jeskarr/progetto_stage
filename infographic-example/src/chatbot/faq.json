@@ -1,0 +1,272 @@
+[
+    {
+        "question": "Di cosa parla l'infografica?",
+        "answer": "Si parla del corso di laurea triennale in Informatica presso l'Università degli Studi di Padova, a partire dai requisiti per accedervi fino al futuro degli studenti dopo il suo completamento.",
+        "section": "#introduction"
+    },
+    {
+        "question": "Perché dovrei fare questo corso all'Università degli Studi di Padova?",
+        "answer": "La qualità dei contenuti del corso di laurea è certificata da enti nazionali e l'Università degli Studi di Padova si trova in buone posizioni nella classifica italiana delle università.",
+        "section": "#introduction"
+    },
+    {
+        "question": "Il corso è a numero chiuso?", 
+        "answer": "Il corso ha ammissione a numero programmato pertanto per accedere è necessario superare un test di ingresso.",
+        "section": "#requirements"
+    },
+    {
+        "question": "Il corso è a numero programmato?", 
+        "answer": "Il corso ha ammissione a numero programmato pertanto per accedere è necessario superare un test di ingresso.",
+        "section": "#requirements"
+    },
+    {
+        "question": "Cosa mi serve per iniziare il corso?",
+        "answer": "Per accedere al corso sono necessari soltanto il diploma di maturità quinquennale e il superamento di un test di ingresso. Tutto ciò ovviamente deve essere accompagnato da un'attitudine o, perlomeno, una curiosità per le materie tecnologiche o scientifiche.",
+        "section": "#requirements"
+    },
+    {
+        "question": "Cosa devo aver fatto per poter cominciare il corso?",
+        "answer": "Per accedere al corso sono necessari soltanto il diploma di maturità quinquennale e il superamento di un test di ingresso. Tutto ciò ovviamente deve essere accompagnato da un'attitudine o, perlomeno, una curiosità per le materie tecnologiche o scientifiche.",
+        "section": "#requirements"
+    },
+    {
+        "question": "Quali sono i requisiti per accedere al corso?",
+        "answer": "Per accedere al corso sono necessari soltanto il diploma di maturità quinquennale e il superamento di un test di ingresso. Tutto ciò ovviamente deve essere accompagnato da un'attitudine o, perlomeno, una curiosità per le materie tecnologiche o scientifiche.",
+        "section": "#requirements"
+    },
+    {
+        "question": "Che tipo di studenti ci sono?", 
+        "answer": "La maggior parte degli studenti sono dei ragazzi abbastanza giovani che provengono da istituti tecnici e licei scientifici.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Chi saranno i miei futuri colleghi?", 
+        "answer": "La maggior parte degli studenti sono dei ragazzi abbastanza giovani che provengono da istituti tecnici e licei scientifici.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Quante ragazze ci sono?",
+        "answer": "La maggior parte degli studenti sono dei ragazzi. Le ragazze rappresentano circa il 15% del totale. Ma non lasciare che questo influenzi la tua decisione! La qualità del corso e l'allineamento con i tuoi interessi sono ciò che conta di più.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Quante donne e uomini ci sono?",
+        "answer": "La maggior parte degli studenti sono dei ragazzi. Le ragazze rappresentano circa il 15% del totale. Ma non lasciare che questo influenzi la tua decisione! La qualità del corso e l'allineamento con i tuoi interessi sono ciò che conta di più.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Da quali scuole provengono gli altri studenti?",
+        "answer": "La maggior parte degli studenti proviene da istituti tecnici e licei scientifici. Ma non lasciare che questo influenzi la tua decisione! La qualità del corso e l'allineamento con i tuoi interessi sono ciò che conta di più.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Come sono gli altri studenti?",
+        "answer": "La maggior parte degli studenti si trova bene con i colleghi e ne sono soddisfatti.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Come sono i colleghi?",
+        "answer": "La maggior parte degli studenti si trova bene con i colleghi e ne sono soddisfatti.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Qual è l'età media degli studenti al momento dell'immatricolazione?",
+        "answer": "L'età media di immatricolazione è abbastanza bassa: 19.5 anni.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Qual è il voto medio di diploma degli studenti?",
+        "answer": "Il voto medio di diploma è 87.4.",
+        "section": "#demographics"
+    },
+    {
+        "question": "Dove si studia?", 
+        "answer": "Il corso di laurea si svolge in presenza a Padova, in centro storico.",
+        "section": "#locations"
+    },
+    {
+        "question": "Dove si trovano le aule?",
+        "answer": "Le aule in cui si svolgono le lezioni si trovano nel centro storico di Padova. In particolare, al Plesso Paolotti, in Torre Archimede e alle Aule Luzzati.",
+        "section": "#locations"
+    },
+    {
+        "question": "Dove si svolgono le lezioni?",
+        "answer": "Le aule in cui si svolgono le lezioni si trovano nel centro storico di Padova. In particolare, al Plesso Paolotti, in Torre Archimede e alle Aule Luzzati.",
+        "section": "#locations"
+    },
+    {
+        "question": "Ci sono delle aule studio vicine?",
+        "answer": "Sono presenti numerose aule studio vicino alle aule di lezione. Le più vicine sono le aule studio del Plesso Paolotti.",
+        "section": "#locations"
+    },
+    {
+        "question": "Dove sono le aule studio?",
+        "answer": "Sono presenti numerose aule studio vicino alle aule di lezione. Le più vicine sono le aule studio del Plesso Paolotti.",
+        "section": "#locations"
+    },
+    {
+        "question": "Come sono i laboratori di informatica?",
+        "answer": "La maggior parte degli studenti ritiene che tali laboratori e le loro attrezzature siano adeguate.",
+        "section": "#locations"
+    },
+    {
+        "question": "Dove si trovano i laboratori di informatica?",
+        "answer": "I laboratori sono allocati presso Torre Archimede e Plesso Paolotti.",
+        "section": "#locations"
+    },
+    {
+        "question": "Come sono le biblioteche?",
+        "answer": "La totalità degli studenti ritiene positiva l'esperienza effettuata con le biblioteche di ateneo.",
+        "section": "#locations"
+    },
+    {
+        "question": "Dove si trovano le biblioteche?",
+        "answer": "La biblioteca del dipartimento si trova presso Torre Archimede.",
+        "section": "#locations"
+    },
+    {
+        "question": "Come sono le aule?",
+        "answer": "Le aule sono ritenute spesso adeguate dalla maggior parte degli studenti.",
+        "section": "#locations"
+    },
+    {
+        "question": "In quale parte di Padova devo andare?",
+        "answer": "Le aule in cui si svolgono le lezioni si trovano nel centro storico di Padova. In particolare, al Plesso Paolotti, in Torre Archimede e alle Aule Luzzati.",
+        "section": "#locations"
+    },
+    {
+        "question": "Quali sono gli esami da dare?",
+        "answer": "La maggior parte delle materie studiate riguarda, ovviamente, la parte di informatica. All'interno di tale parte, Ingegneria del Software e Programmazione ad oggetti hanno un peso maggiore. Un'altra grande parte è dedicata alla matematica, essenziale per capire i concetti base su cui l'informatica si fonda. La fetta rimanente, più piccola ma non meno importante, viene dedicata all'attestamento di abilità e della prova finale e stage.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Cosa si studia in questo corso?",
+        "answer": "La maggior parte delle materie studiate riguarda, ovviamente, la parte di informatica. All'interno di tale parte, Ingegneria del Software e Programmazione ad oggetti hanno un peso maggiore. Un'altra grande parte è dedicata alla matematica, essenziale per capire i concetti base su cui l'informatica si fonda. La fetta rimanente, più piccola ma non meno importante, viene dedicata all'attestamento di abilità e della prova finale e stage.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Quali sono le materie che si studiano?",
+        "answer": "La maggior parte delle materie studiate riguarda, ovviamente, la parte di informatica. All'interno di tale parte, Ingegneria del Software e Programmazione ad oggetti hanno un peso maggiore. Un'altra grande parte è dedicata alla matematica, essenziale per capire i concetti base su cui l'informatica si fonda. La fetta rimanente, più piccola ma non meno importante, viene dedicata all'attestamento di abilità e della prova finale e stage.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Il carico di studio è equilibrato?",
+        "answer": "La maggior parte degli studenti ritiene abbastanza equilibrato il carico di studi.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Quanta matematica c'è?",
+        "answer": "All'incirca un quarto dello studio è da dedicare a materie affini alla matematica.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Quanta pesa la parte di matematica sul corso?",
+        "answer": "All'incirca un quarto dello studio è da dedicare a materie affini alla matematica.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Ci sono delle parti o progetti pratici?",
+        "answer": "Il corso prevede almeno quattro progetti pratici. Inoltre, prevede uno stage obbligatorio su cui sarà basata e valutata la prova finale.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "C'è della pratica?",
+        "answer": "Il corso prevede almeno quattro progetti pratici. Inoltre, prevede uno stage obbligatorio su cui sarà basata e valutata la prova finale.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Quanto pesa la parte di informatica pura sul corso?",
+        "answer": "Com'è naturale, la parte di informatica è quella di maggior peso all'interno del corso. Infatti, più della metà dello studio è da dedicare a materie ad essa affini.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Quanta informatica c'è?",
+        "answer": "Com'è naturale, la parte di informatica è quella di maggior peso all'interno del corso. Infatti, più della metà dello studio è da dedicare a materie ad essa affini.",
+        "section": "#course-outline"
+    },
+    {
+        "question": "Il corso è impegnativo?",
+        "answer": "Nonostante sia una laurea triennale, il tempo medio di laurea è sui 4 anni e il voto medio è di 96.8/110. Pertanto, il corso di laurea potrebbe essere ritenuto abbastanza impegnativo. Tuttavia, è importante ricordare che ogni percorso accademico richiede dedizione e che, con la giusta pianificazione e supporto, è comunque possibile ottenere ottimi risultati.",
+        "section": "#exit-results"
+    },
+    {
+        "question": "Il corso è difficile?",
+        "answer": "Nonostante sia una laurea triennale, il tempo medio di laurea è sui 4 anni e il voto medio è di 96.8/110. Pertanto, il corso di laurea potrebbe essere ritenuto abbastanza impegnativo. Tuttavia, è importante ricordare che ogni percorso accademico richiede dedizione e che, con la giusta pianificazione e supporto, è comunque possibile ottenere ottimi risultati.",
+        "section": "#exit-results"
+    },
+    {
+        "question": "Quanto ci si mette a laurearsi?",
+        "answer": "Il corso di laurea dura tre anni e la maggior parte degli studenti rimane in corso, impiegandoci tale quantità di tempo per laurearsi. Tuttavia, si ha anche una buona parte di studenti fuori corso di un anno o più. La media è di 4.3 anni.",
+        "section": "#exit-results"
+    },
+    {
+        "question": "Qual è la durata media del corso?",
+        "answer": "Il corso di laurea dura tre anni e la maggior parte degli studenti rimane in corso, impiegandoci tale quantità di tempo per laurearsi. Tuttavia, si ha anche una buona parte di studenti fuori corso di un anno o più. La media è di 4.3 anni.",
+        "section": "#exit-results"
+    },
+    {
+        "question": "Quanti sono gli studenti fuori corso?",
+        "answer": "Il corso di laurea dura tre anni e la maggior parte degli studenti rimane in corso, impiegandoci tale quantità di tempo per laurearsi. Tuttavia, si ha anche una buona parte di studenti fuori corso di un anno o più. La media è di 4.3 anni.",
+        "section": "#exit-results"
+    },
+    {
+        "question": "Con quale voto ci si laurea in media?",
+        "answer": "Il voto di laurea medio è 96.8/110.",
+        "section": "#exit-results"
+    },
+    {
+        "question": "Si trova lavoro dopo la laurea?",
+        "answer": "La disoccupazione è praticamente nulla, si attesta intorno al 3.9%.",
+        "section": "#post-graduation"
+    },
+    {
+        "question": "Dopo la laurea cosa posso fare?",
+        "answer": "Una grande parte dei laureati inizia a lavorare e/o prosegue con un corso di laurea di secondo livello. Tra i lavoratori, la maggior parte svolge professioni tecniche o intellettuali-scientifiche. Mentre, per quanto la laurea di secondo livello, la maggior parte dei laureati sceglie la laurea che rappresenta il proseguimento naturale del corso.",
+        "section": "#post-graduation"
+    },
+    {
+        "question": "Cosa fanno gli studenti dopo la laurea?",
+        "answer": "Una grande parte dei laureati inizia a lavorare e/o prosegue con un corso di laurea di secondo livello. Tra i lavoratori, la maggior parte svolge professioni tecniche o intellettuali-scientifiche. Mentre, per quanto la laurea di secondo livello, la maggior parte dei laureati sceglie la laurea che rappresenta il proseguimento naturale del corso.",
+        "section": "#post-graduation"
+    },
+    {
+        "question": "Quali lavori si possono svolgere una volta laureati?",
+        "answer": "I lavori più svolti sono sviluppatore e gestore di reti informatiche. Altri lavori sono ad esempio web,aster, progettista di sistemi operativi o di applicazioni in ambiente Internet o locale. In generale, si tratta di profesioni perlopiù tecniche o intellettuali-scientifiche.",
+        "section": "#post-graduation"
+    },
+    {
+        "question": "Gli studenti mi consigliano di fare questo corso?",
+        "answer": "La gran parte degli studenti è soddisfatta del corso svolto e lo rifarebbe nuovamente.",
+        "section": "#students-feedback"
+    },
+    {
+        "question": "Quanti studenti si pentono della scelta di questo corso?",
+        "answer": "La gran parte degli studenti è soddisfatta del corso svolto e lo rifarebbe nuovamente.",
+        "section": "#students-feedback"
+    },
+    {
+        "question": "Gli studenti e i laureati sono contenti del corso?",
+        "answer": "La gran parte degli studenti è soddisfatta del corso svolto e lo rifarebbe nuovamente.",
+        "section": "#students-feedback"
+    },
+    {
+        "question": "I laureati e gli studenti sono soddisfatti?",
+        "answer": "La gran parte degli studenti è soddisfatta del corso svolto e lo rifarebbe nuovamente.",
+        "section": "#students-feedback"
+    },
+    {
+        "question": "I laureati e gli studenti sono felici della loro scelta? Cosa ne pensano gli studenti del corso?",
+        "answer": "La gran parte degli studenti è soddisfatta del corso svolto e lo rifarebbe nuovamente.",
+        "section": "#students-feedback"
+    },
+    {
+        "question": "Cosa ne pensano gli studenti del corso?",
+        "answer": "La gran parte degli studenti è soddisfatta del corso svolto e lo rifarebbe nuovamente.",
+        "section": "#students-feedback"
+    },
+    {
+        "question": "Come si sono trovati gli studenti?",
+        "answer": "La gran parte degli studenti è soddisfatta del corso svolto e lo rifarebbe nuovamente.",
+        "section": "#students-feedback"
+    }
+]

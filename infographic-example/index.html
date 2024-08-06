@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+    <head>
+        <meta charset="UTF-8">      
+        <title>Laurea in Informatica - Università di Padova</title>
+        
+        <meta name="description" content="Scopri il corso di laurea triennale di Informatica dell'Università degli studi di Padova: 
+        un percorso formativo completo che unisce teoria e pratica, offrendo una preparazione di qualità per il tuo futuro nel mondo della tecnologia." />
+        <meta name="keywords" content="Informatica, Università di Padova, corso di laurea, laurea triennale" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="src/assets/style/global.css" media="screen" />
+        <link rel="stylesheet" href="src/assets/style/mini.css" media="screen" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,900;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body id="home">   
+        <button id="chatButton" class="floating-button" alt="Chat"></button>
+
+        <div id="chatWindow" class="chat-window">
+            <form id="chatForm" class="form-container">
+                <div class="title bg-unipd-red">
+                    <h1>Chat</h1>
+                    <button id="closeChat" class="close-button" type="button">X</button>
+                </div>
+                <div class="chat-content">
+                    <div class="chat-message bot">Ciao! &#128075; Hai domande sull'infografica? Fammi sapere cosa cerchi e ti indirizzerò alla sezione corretta.</div>
+                </div>
+                <div class="chat-submit bg-unipd-red">
+                    <textarea placeholder="Scrivi un messaggio..." name="msg" id="msg"></textarea>
+                    <button id="sendMsg" type="submit">Invia</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="header bg-unipd-red section">
+            <a id="logo-DM" href="https://www.math.unipd.it">
+                <img src="src/assets/images/logo-DM.png" alt="Dipartimento di Matematica “Tullio Levi-Civita” - Università degli Studi di Padova" />
+            </a>
+            <h1> CORSO DI LAUREA IN INFORMATICA </h1>
+            <div id="introduction">
+                <p>
+                    Preparati a diventare un protagonista del cambiamento, scopri il corso di laurea triennale in Informatica dell'Università degli Studi di Padova.
+                </p>
+                <p>
+                    In un mondo tecnologico in costante evoluzione, acquisirai competenze fondamentali per il tuo futuro attraverso una formazione di <strong>qualità certificata 
+                    da enti nazionali e internazionali</strong> 
+                    <span class="i-tooltip">&#9432;<span class="tooltip-text">La qualità dei contenuti è certificata dal <strong>GRIN</strong> (GRuppo di INformatica). Per ulteriori informazioni sul ranking dell'Università a livello nazionale e internazionale si visiti <a href="https://www.unipd.it/ranking">questa</a> pagina.</span></span>. 
+                    Apprenderai i <strong>fondamenti teorici dell'informatica</strong> e metterai in pratica le tue conoscenze con <strong>progetti concreti</strong>. 
+                </p>
+            </div>
+        </div>
+    
+        <main id="content">
+            <div id="requirements" class="section">
+                <h2>Cosa ti serve per iniziare?</h2>
+                <h3>Sono necessarie solo 3 cose</h3>
+                <div class="card-grid">
+                    <div class="card">
+                        <img class="icon" src="src/assets/images/diploma-black.svg" alt="Icona diploma">
+                        <h3 class="focus">Diploma di maturità quinquennale</h3>
+                        <p>Dovrai essere in possesso di un diploma di maturità quinquennale <strong>o di un titolo equivalente</strong>. Non è necessario aver studiato in ambiti specifici in precedenza.</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon" src="src/assets/images/test-black.svg" alt="Icona test d'ingresso">
+                        <h3 class="focus">Test di ingresso</h3>
+                        <p>Il corso prevede un'<strong>ammissione a numero programmato</strong>, pertanto dovrai superare un test d'ingresso per l'accesso al corso.</p>
+                    </div>
+                    <div class="card">
+                        <img class="icon" src="src/assets/images/attitudes-black.svg" alt="Icona attitudini">
+                        <h3 class="focus">Una giusta attitudine</h3>
+                        <p>Se hai:</p>
+                        <ul>
+                            <li>una passione per la <strong>tecnologia</strong> </li>
+                            <li>una <strong>curiosità</strong> scientifica</li>
+                            <li>un pensiero logico</li>
+                            <li>un'attenzione all'innovazione</li>
+                            <li>un'inclinazione al <strong>problem solving</strong></li>
+                        </ul>
+                        <p>questo è il corso che fa per te.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="demographics" class="section">
+                <h2>Chi ti accompagnerà nel tuo percorso?</h2>
+                <h3>Un gruppo di ragazzi giovani a prevalenza maschile<br />I più arrivano da istituti tecnici e licei scientifici </h3>
+                <div class="section-content">
+                    <div class="dataviz-summary">
+                        <div class="card single-data grade-avg">
+                            <p><span class="text-highlight">VOTO MEDIO</span><br />del diploma di istruzione superiore</p>
+                            <p><span id="grade-avg" class="text-highlight focus"></span> /100</p>
+                        </div>
+                        <div class="card single-data age-avg">
+                            <p><span class="text-highlight">ETÀ MEDIA</span><br />al momento dell'immatricolazione</p>
+                            <span id="age-avg" class="text-highlight focus"></span>
+                        </div>
+                    </div>
+                    <div class="dataviz-wrapper"></div>
+                </div>
+                <div class="section-appendix">
+                    <button class="accordion active text-highlight">Cosa ne pensano gli studenti?</button>
+                    <div class="dataviz-wrapper panel" style="display: block;"><p class="chart-title"></p></div>
+                </div>
+            </div>
+            <div id="locations" class="section">
+                <h2>Dove si va?</h2>
+                <h3>A Padova, città dei "gran dotori"</h3>
+                <div class="section-content">
+                    <div class="map-wrapper">
+                        <div class="map-legend">
+                            <div class="map-legend-item">
+                                <img class="small-icon" src="./src/assets/images/marker-aula.svg" alt="Puntina aula" />
+                                <span class="icon-text">Aula</span>
+                            </div>
+                            <div class="map-legend-item">
+                                <img class="small-icon" src="./src/assets/images/marker-aula_studio.svg" alt="Puntina aula studio"/>
+                                <span class="icon-text map-legend-item">Aula studio</span>
+                            </div>
+                            <div class="map-legend-item">
+                                <img class="small-icon" src="./src/assets/images/marker-biblioteca.svg" alt="Puntina biblioteca" />
+                                <span class="icon-text map-legend-item">Biblioteca</span>
+                            </div>
+                            <div class="map-legend-item">
+                                <img class="small-icon" src="./src/assets/images/marker-laboratorio.svg" alt="Puntina laboratorio informatico"/>
+                                <span class="icon-text map-legend-item">Laboratorio informatico</span>
+                            </div>
+                            <div class="map-legend-item">
+                                <img class="small-icon" src="./src/assets/images/marker-mensa.svg" alt="Puntina mensa" />
+                                <span class="icon-text map-legend-item">Mensa</span>
+                            </div>
+                        </div>
+                        <div id="map"></div>
+                        <span class="info">&#9432; Si riportano solo gli edifici più rilevanti per il corso di laurea.</span>
+                    </div>
+                    <div class="dataviz-summary">
+                        <div class="card single-data">
+                            <p>Il totale delle superfici universitarie supera i <br /> <span class="text-highlight focus">791.000 mq</span><br />(115 campi da calcio) </p>
+                            <p>Si ha un rapporto di <span class="text-highlight">100 mq per dipendente</span> e <span class="text-highlight">10 mq per studente</span></p>
+                        </div>
+                        <div class="card single-data">
+                            <p>
+                            L'Università degli Studi di Padova nei suoi <br /><span class="text-highlight focus">otto secoli</span><br /> di storia ha plasmato il tessuto urbano della città
+                            con un mix di edifici storici e moderni. 
+                            </p>                
+                            <p>
+                            La maggior parte ha <span class="text-highlight">funzione didattica</span>, ma numerosi sono anche gli uffici, laboratori, 
+                            archivi, musei, sale convegni e spazi all'aperto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-appendix">
+                    <button class="accordion active text-highlight">Cosa ne pensano gli studenti sulle aule?</button>
+                    <div class="panel" style="display: block;">
+                        <div class="section-content-gridlike">
+                            <div id="room-opinion" class="dataviz-wrapper"><p class="chart-title"></p></div>
+                            <div id="study-room-opinion" class="dataviz-wrapper"><p class="chart-title"></p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-appendix">
+                    <button class="accordion active text-highlight">E su laboratori e biblioteche?</button>
+                    <div class="panel" style="display: block;">
+                        <div class="section-content-gridlike">
+                            <div id="labs-opinion" class="dataviz-wrapper"><p class="chart-title"></p></div>
+                            <div id="library-opinion" class="dataviz-wrapper"><p class="chart-title"></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="course-outline" class="section">
+                <h2>Cosa imparerai?</h2>
+                <h3>Fondamenti di matematica e informatica consolidati con progetti pratici<br />Uno stage obbligatorio che completa il percorso</h3>
+                <div class="section-content">
+                    <div class="dataviz-summary">
+                        <div class="card">
+                            <p><span id="tot-cfu" class="text-highlight">180 CFU</span><span class="i-tooltip"> &#9432;<span class="tooltip-text">Il <strong>Credito Formativo Universitario</strong> (CFU) è l'unità di misura dell'impegno richiesto, corrispondente a circa 25 ore di studio o apprendimento.
+                                I crediti previsti per ogni insegnamento o attività didattica si acquisiscono una volta superato l'esame o concluse le attività, indipendentemente dal voto conseguito. </span></span><br />
+                            divisi tra:</p>
+                            <div class="nested-card">
+                                <div><span id="INF" class="text-highlight focus hoverable">Informatica</span><br /><span id="INF-cfu"></span></div>
+                                <div><span id="MAT" class="text-highlight focus hoverable">Matematica</span><br /><span id="MAT-cfu"></span></div>
+                                <div><span id="ALTRO" class="text-highlight focus hoverable">Altro</span><br /><span id="ALTRO-cfu"></span></div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p><span class="text-highlight">Almeno 4</span><span class="text-highlight focus hoverable"> progetti pratici</span><br />
+                            tra i quali:</p>
+                            <ul class="two-col">
+                                <li>Programmazione ad oggetti</li>
+                                <li>Basi di dati</li>
+                                <li>Tecnologie web</li>
+                                <li>Ingegneria del Software <span class="i-tooltip"> &#9432;<span class="tooltip-text">Questo progetto viene svolto in collaborazione con delle aziende.</span></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dataviz-wrapper">
+                        <div class="controls">
+                            <span>Visione per affinità</span>
+                            <label class="switch">
+                                <input type="checkbox" id="treemap-switch">
+                                <span class="slider"></span>
+                            </label>
+                            <span>Visione per anno</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-appendix">
+                    <button class="accordion active text-highlight">E cosa ne pensano gli studenti?</button>
+                    <div class="dataviz-wrapper panel" style="display: block;"><p class="chart-title"></p></div>
+                </div>
+            </div>
+            <div id="exit-results" class="section">
+                <h2>Ma è difficile?</h2>
+                <h3>Non sarà una passeggiata, ma sarà soddisfacente</h3>
+                <div class="section-content">
+                    <div class="dataviz-wrapper"></div>
+                    <div class="dataviz-summary">
+                        <div class="card single-data grade-avg">
+                            <p><span class="text-highlight">VOTO MEDIO</span><br />di laurea</p>
+                            <p><span id="uni-grade-avg" class="text-highlight focus"></span> /110</p>
+                        </div>
+                        <div class="card single-data duration-avg">
+                            <p><span class="text-highlight">DURATA MEDIA</span><br />degli studi, in anni</p>
+                            <span id="years-avg" class="text-highlight focus"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="post-graduation" class="section">
+                <h2>Finalmente laureati! E poi?</h2>
+                <h3>Continuare a studiare o iniziare a lavorare, le opportunità non mancano</h3>
+                <div class="section-content">
+                    <div class="dataviz-summary">
+                        <div class="card">
+                            <p>Opportunità di studio con la</br><span class="text-highlight">Laurea magistrale in </span><span class="text-highlight focus">Computer Science</span><br />
+                            offerta dall'Università degli Studi di Padova, con major riguardanti:</p>
+                            <ul class="two-col">
+                                <li>Artificial Intelligence</li>
+                                <li>Internet, Mobile and Security</li>
+                                <li>Programming Languages, Systems and Algorithms</li>
+                                <li>Internet of Things and Embedded Systems</li>
+                                <li>Data and Process Management</li>
+                                <li>Innovation and Entrepreneurship in ICT</li>
+                            </ul>
+                        </div>
+                        <div class="card single-data">
+                            <p><span class="text-highlight">Disocuppazione al </span><span class="text-highlight focus">3,9%</span><br />
+                            tra i principali sbocchi lavorativi:</p>
+                            <ul class="two-col">
+                                <li><strong>Sviluppatore</strong></li>
+                                <li><strong>Gestore di reti informatiche</strong></li>
+                                <li>Webmaster</li>
+                                <li>Progettista di sistemi operativi</li>
+                                <li>Progettista di applicazioni in ambiente Internet o rete locale</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="dataviz-wrapper"></div>
+                </div>
+                <div class="section-appendix">
+                    <button class="accordion active text-highlight">Scopri che tipo di professioni e corsi di laurea hanno scelto i laureati</button>
+                    <div class="panel informative" style="display: block;">
+                        <div class="section-content-gridlike">
+                            <div id="study-after-grad" class="dataviz-wrapper"><p class="chart-title"></p></div>
+                            <div id="jobs-after-grad" class="dataviz-wrapper"><p class="chart-title"></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="students-feedback" class="section">
+                <h2>Quindi, ne vale la pena?</h2>
+                <h3>Gli studenti dicono di sì</h3>
+                <div class="section-content-gridlike">
+                    <div id="general-opinion" class="dataviz-wrapper chart-card"><p class="chart-title"></p></div>
+                    <div id="redo-opinion" class="dataviz-wrapper chart-card"><p class="chart-title"></p></div>
+                </div>
+            </div>
+        </main>
+
+        <div class="footer bg-unipd-red">
+            <h4>Fonti</h4>
+            <ul> 
+                <li><a href="https://www.unipd.it/dati-statistici-immatricolati">Dati dell'Università degli Studi di Padova sugli studenti immatricolati</a> (a.a. 2022-2023)</li>
+                <li><a href="https://www.unipd.it/dati-statistici-laureati">Dati dell'Università degli Studi di Padova sugli studenti laureati</a> (anno solare 2023)</li>
+                <li><a href="https://www2.almalaurea.it/cgi-php/universita/statistiche/stamp.php?versione=2019&annoprofilo=2023&annooccupazione=2022&codicione=0280106203100001&corsclasse=2031&aggrega=SI&confronta=ateneo&compatibility=0&stella2015=&sua=1#profilo">Dati Almalaurea sulla soddisfazione dei laureati</a> (anno solare 2022)</li> 
+                <li><a href="https://www2.almalaurea.it/cgi-php/universita/statistiche/stamp.php?versione=2019&annoprofilo=2023&annooccupazione=2022&codicione=0280106203100001&corsclasse=2031&aggrega=SI&confronta=ateneo&compatibility=0&stella2015=&sua=1#profilo">Dati Almalaurea sulla condizione occupazionale dei laureati</a> (anno solare 2022)</li>
+                <li><a href="https://univercity.800anniunipd.it/">Dati dell'Università degli Studu di Padova sulle sedi e strutture</a> (anno 2022)</li>
+            </ul>
+        </div>
+
+        <div id="tooltips"></div>
+
+        <!-- External libraries-->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/venn.js/0.2.14/venn.min.js"></script>
+        <script src="https://unpkg.com/d3-sankey@0"></script>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier-Leaflet/0.2.6/oms.min.js"></script>
+
+        <script src="src/chatbot/PorterStemmerIt.es5.js"></script>
+        <script src="src/chatbot/chatbot.js"></script>
+
+        <!-- My scripts -->
+        <script src="src/dataParsing.js"></script>
+        <script src="src/vizCreation.js"></script>
+        <script src="src/interactivity.js"></script>
+    </body>
+</html>
