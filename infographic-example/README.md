@@ -2,6 +2,8 @@
 This is an example of a web infographic created using mainly HTML, CSS and JS, with D3.js for data visualization elements. 
 The topic of this infographic is the Bachelor Degree in Computer Science at the Università degli Studi di Padova.
 
+You can watch the demo video [here](https://drive.google.com/file/d/1iI7fJgplSvF9b5KNPc-F9b7tX1Ol0Fz5/view?usp=drive_link).
+
 It uses a local server (node.js *http-server*) to be viewed.
 
 **Important:** This version of the infographic includes a basic term-based chatbot. For a more advanced feature (hybrid search) see the
